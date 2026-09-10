@@ -104,6 +104,12 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: .center,
           children: [
+            const Icon(
+              Icons.rocket_launch,
+              size: 32.0,
+              color: Colors.deepPurple,
+            ),
+            const SizedBox(height: 12.0),
             const Text('Kasen has pushed the button this many times:', style: TextStyle(
               fontSize: 34.0, // Adjust this number to make it bigger
               fontWeight: FontWeight.bold, // Optional: makes it bold too
